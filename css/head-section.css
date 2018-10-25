@@ -1,0 +1,27 @@
+/* line 1, ../sass/head-section.scss */
+.main-text {
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 25%;
+}
+/* line 6, ../sass/head-section.scss */
+.main-text h1 {
+  margin-bottom: 2%;
+}
+
+/* line 12, ../sass/head-section.scss */
+.search-box {
+  margin-top: 5%;
+}
+/* line 14, ../sass/head-section.scss */
+.search-box .btn {
+  border-radius: 0 5px 5px 0;
+  background-color: #e7434e;
+  color: #ffffff;
+  font: 700 11px/22px Raleway;
+}
+/* line 19, ../sass/head-section.scss */
+.search-box .btn:hover {
+  background-color: darkred;
+}

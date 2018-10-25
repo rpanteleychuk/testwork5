@@ -1,0 +1,401 @@
+/* Welcome to Compass.
+ * In this file you should write your main styles. (or centralize your imports)
+ * Import this file using the following HTML or equivalent:
+ * <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css" /> */
+/* line 1, ../sass/all-fonts.scss */
+body {
+  font-family: Raleway;
+}
+
+/* line 5, ../sass/all-fonts.scss */
+.fnt-medium {
+  font: 400 30px/40px Open Raleway;
+}
+/* line 7, ../sass/all-fonts.scss */
+.fnt-medium-1 {
+  font: 400 21px/28px Raleway;
+}
+
+/* line 12, ../sass/all-fonts.scss */
+.fnt-small {
+  font: 400 20px/30px Open Raleway;
+}
+/* line 14, ../sass/all-fonts.scss */
+.fnt-small-1 {
+  font: 400 17px/22px Open Sans;
+}
+
+/* line 19, ../sass/all-fonts.scss */
+.fnt-count {
+  font: 700 16px/22px Open Sans;
+}
+/* line 21, ../sass/all-fonts.scss */
+.fnt-count-small-weight {
+  font: 400 16px/22px Open Sans;
+}
+
+/* line 26, ../sass/all-fonts.scss */
+.fnt-footer-head {
+  font: 700 11px/22px Raleway;
+}
+
+/* line 30, ../sass/all-fonts.scss */
+.fnt-xsmall {
+  font: 700 11px/34px Open Sans;
+}
+
+/* line 44, ../sass/all-fonts.scss */
+.main-font {
+  font: 700 53px/28px Raleway;
+}
+/* line 46, ../sass/all-fonts.scss */
+.main-font-med {
+  font: 400 21px/22px Open Sans;
+}
+
+@media screen and (min-width: 1400px) {
+  /* line 52, ../sass/all-fonts.scss */
+  .main-font {
+    font-size: 53px;
+  }
+}
+@media screen and (min-width: 1100px) and (max-width: 1399px) {
+  /* line 58, ../sass/all-fonts.scss */
+  .main-font {
+    font-size: 40px;
+  }
+}
+@media screen and (min-width: 500px) and (max-width: 1099px) {
+  /* line 64, ../sass/all-fonts.scss */
+  .main-font {
+    font-size: 30px;
+  }
+}
+@media screen and (min-width: 300px) and (max-width: 499px) {
+  /* line 70, ../sass/all-fonts.scss */
+  .main-font {
+    font-size: 20px;
+  }
+}
+/* line 1, ../sass/main-video-bgr.scss */
+.fullscreen-bg {
+  overflow: hidden;
+  z-index: -100;
+  max-height: 80vh;
+}
+
+/* line 8, ../sass/main-video-bgr.scss */
+.fullscreen-bg__video {
+  position: relative;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: -100;
+  opacity: 0.6;
+}
+
+@media (min-aspect-ratio: 16 / 9) {
+  /* line 19, ../sass/main-video-bgr.scss */
+  .fullscreen-bg__video {
+    height: 300%;
+    top: -100%;
+  }
+}
+@media (max-aspect-ratio: 16 / 9) {
+  /* line 26, ../sass/main-video-bgr.scss */
+  .fullscreen-bg__video {
+    width: 300%;
+    left: -100%;
+  }
+}
+@media (max-width: 767px) {
+  /* line 33, ../sass/main-video-bgr.scss */
+  .fullscreen-bg {
+    background: url("../images/polina.jpg") center center/cover no-repeat;
+  }
+}
+/* line 1, ../sass/header.scss */
+.header {
+  position: absolute;
+  top: 2%;
+  left: 0;
+  right: 0;
+  max-width: 80%;
+  color: #f9fafe;
+  font: 700 12px/22px Raleway;
+}
+/* line 10, ../sass/header.scss */
+.header .btn-secondary {
+  font: 700 12px/22px Raleway;
+  color: #f9fafe;
+  background-color: inherit;
+}
+
+/* line 1, ../sass/head-section.scss */
+.main-text {
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 25%;
+}
+/* line 6, ../sass/head-section.scss */
+.main-text h1 {
+  margin-bottom: 2%;
+}
+
+/* line 12, ../sass/head-section.scss */
+.search-box {
+  margin-top: 5%;
+}
+/* line 14, ../sass/head-section.scss */
+.search-box .btn {
+  border-radius: 0 5px 5px 0;
+  background-color: #e7434e;
+  color: #ffffff;
+  font: 700 11px/22px Raleway;
+}
+/* line 19, ../sass/head-section.scss */
+.search-box .btn:hover {
+  background-color: darkred;
+}
+
+/* line 2, ../sass/explore-section.scss */
+.explore-section .text-box {
+  margin: 10% 0 5%;
+}
+/* line 4, ../sass/explore-section.scss */
+.explore-section .text-box h2 {
+  color: #343435;
+}
+/* line 8, ../sass/explore-section.scss */
+.explore-section .text-box p {
+  color: #717171;
+}
+/* line 13, ../sass/explore-section.scss */
+.explore-section .gallery-item {
+  margin: 15px 0;
+}
+/* line 16, ../sass/explore-section.scss */
+.explore-section .img-text {
+  position: absolute;
+  bottom: 0;
+  left: 30px;
+}
+/* line 23, ../sass/explore-section.scss */
+.explore-section .count-view {
+  position: absolute;
+  top: 8%;
+  left: 45px;
+  width: 82px;
+  height: 42px;
+  border-radius: 5px;
+  background-color: #e7434e;
+}
+/* line 31, ../sass/explore-section.scss */
+.explore-section .count-view p {
+  margin: 0 0 0 10%;
+}
+/* line 34, ../sass/explore-section.scss */
+.explore-section .count-view img {
+  margin-left: 20%;
+  height: 16px;
+  width: 16px;
+}
+/* line 40, ../sass/explore-section.scss */
+.explore-section .btn-secondary {
+  margin-top: 5%;
+  padding: 25px 20px;
+}
+
+@media screen and (min-width: 1400px) {
+  /* line 48, ../sass/explore-section.scss */
+  .img-text h5 {
+    font-size: 30px;
+  }
+}
+@media screen and (min-width: 1100px) and (max-width: 1399px) {
+  /* line 54, ../sass/explore-section.scss */
+  .img-text h5 {
+    font-size: 27px;
+  }
+}
+@media screen and (min-width: 500px) and (max-width: 1099px) {
+  /* line 60, ../sass/explore-section.scss */
+  .img-text h5 {
+    font-size: 24px;
+  }
+}
+@media screen and (min-width: 300px) and (max-width: 499px) {
+  /* line 66, ../sass/explore-section.scss */
+  .img-text h5 {
+    font-size: 23px;
+  }
+}
+/* line 1, ../sass/counter-section.scss */
+.counter-section {
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 14%;
+  background-color: #ffffff;
+  border-radius: 5px;
+  box-shadow: 0 0 30px rgba(52, 52, 52, 0.15);
+  padding-top: 15px;
+}
+/* line 10, ../sass/counter-section.scss */
+.counter-section h6 {
+  font: 700 25px/22px Open Sans;
+  color: #343434;
+}
+/* line 14, ../sass/counter-section.scss */
+.counter-section p {
+  font: 400 14px/22px Open Sans;
+  color: #343434;
+}
+/* line 19, ../sass/counter-section.scss */
+.counter-section .border-left {
+  border-left: 1px solid #d4d4d4;
+}
+
+/* line 1, ../sass/own-boat-section.scss */
+.own-boat-section {
+  margin: 5% 0;
+  position: relative;
+}
+/* line 5, ../sass/own-boat-section.scss */
+.own-boat-section .boat-text {
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 30%;
+  z-index: 1;
+}
+/* line 11, ../sass/own-boat-section.scss */
+.own-boat-section .boat-text h3 {
+  margin-bottom: 2%;
+}
+/* line 15, ../sass/own-boat-section.scss */
+.own-boat-section .fullscreen-bg {
+  overflow: hidden;
+  z-index: -100;
+  max-height: 50vh;
+}
+/* line 21, ../sass/own-boat-section.scss */
+.own-boat-section .btn-secondary {
+  border-radius: 5px;
+  background-color: #e7434e;
+  padding: 25px 20px;
+  margin-top: 3%;
+}
+/* line 26, ../sass/own-boat-section.scss */
+.own-boat-section .btn-secondary:hover {
+  background-color: darkred;
+}
+
+/* line 2, ../sass/featured-boats-section.scss */
+.featured-boats-section .text-box {
+  margin: 5% 0;
+}
+/* line 6, ../sass/featured-boats-section.scss */
+.featured-boats-section .gallery-item {
+  margin: 15px 0;
+}
+/* line 10, ../sass/featured-boats-section.scss */
+.featured-boats-section .img-text {
+  position: absolute;
+  bottom: 1%;
+  left: 30px;
+}
+/* line 16, ../sass/featured-boats-section.scss */
+.featured-boats-section .count-view {
+  position: absolute;
+  top: 8%;
+  left: 30px;
+  width: 100px;
+  height: 42px;
+  border-radius: 5px;
+  background-color: #e7434e;
+}
+/* line 24, ../sass/featured-boats-section.scss */
+.featured-boats-section .count-view p {
+  margin-top: 10%;
+}
+/* line 29, ../sass/featured-boats-section.scss */
+.featured-boats-section .btn-secondary {
+  margin-top: 3%;
+  padding: 25px 40px;
+}
+
+/* line 1, ../sass/footer.scss */
+footer {
+  margin-top: 5%;
+  background-color: #404040;
+}
+/* line 5, ../sass/footer.scss */
+footer .social-buttons {
+  margin-top: 2%;
+}
+/* line 8, ../sass/footer.scss */
+footer .form-inline {
+  margin-top: 2%;
+}
+/* line 11, ../sass/footer.scss */
+footer p {
+  margin-top: 2%;
+}
+/* line 14, ../sass/footer.scss */
+footer h6 {
+  margin-top: 30px;
+}
+/* line 17, ../sass/footer.scss */
+footer .form-control {
+  border-radius: 5px 0 0 5px;
+}
+/* line 21, ../sass/footer.scss */
+footer .btn-primary {
+  border-radius: 0 5px 5px 0;
+  background-color: #e7434e;
+}
+/* line 24, ../sass/footer.scss */
+footer .btn-primary:hover {
+  background-color: darkred;
+}
+/* line 28, ../sass/footer.scss */
+footer .form-inline .input-group {
+  padding-right: 0;
+}
+/* line 31, ../sass/footer.scss */
+footer a {
+  color: #717171;
+}
+/* line 33, ../sass/footer.scss */
+footer a:hover {
+  color: darkred;
+}
+/* line 37, ../sass/footer.scss */
+footer .social-buttons {
+  margin-top: 5%;
+}
+
+/* line 1, ../sass/img-zoom.scss */
+.gallery-item {
+  position: relative;
+  overflow: hidden;
+}
+
+/* line 5, ../sass/img-zoom.scss */
+.gallery-item img {
+  max-width: 100%;
+  -moz-transition: all 0.3s;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+}
+
+/* line 11, ../sass/img-zoom.scss */
+.gallery-item:hover img {
+  -moz-transform: scale(1.1);
+  -webkit-transform: scale(1.1);
+  transform: scale(1.1);
+  opacity: 0.6;
+}

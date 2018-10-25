@@ -1,0 +1,33 @@
+/* line 2, ../sass/featured-boats-section.scss */
+.featured-boats-section .text-box {
+  margin: 5% 0;
+}
+/* line 6, ../sass/featured-boats-section.scss */
+.featured-boats-section .gallery-item {
+  margin: 15px 0;
+}
+/* line 10, ../sass/featured-boats-section.scss */
+.featured-boats-section .img-text {
+  position: absolute;
+  bottom: 1%;
+  left: 30px;
+}
+/* line 16, ../sass/featured-boats-section.scss */
+.featured-boats-section .count-view {
+  position: absolute;
+  top: 8%;
+  left: 30px;
+  width: 100px;
+  height: 42px;
+  border-radius: 5px;
+  background-color: #e7434e;
+}
+/* line 24, ../sass/featured-boats-section.scss */
+.featured-boats-section .count-view p {
+  margin-top: 10%;
+}
+/* line 29, ../sass/featured-boats-section.scss */
+.featured-boats-section .btn-secondary {
+  margin-top: 3%;
+  padding: 25px 40px;
+}

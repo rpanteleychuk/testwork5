@@ -1,0 +1,75 @@
+/* line 1, ../sass/all-fonts.scss */
+body {
+  font-family: Raleway;
+}
+
+/* line 5, ../sass/all-fonts.scss */
+.fnt-medium {
+  font: 400 30px/40px Open Raleway;
+}
+/* line 7, ../sass/all-fonts.scss */
+.fnt-medium-1 {
+  font: 400 21px/28px Raleway;
+}
+
+/* line 12, ../sass/all-fonts.scss */
+.fnt-small {
+  font: 400 20px/30px Open Raleway;
+}
+/* line 14, ../sass/all-fonts.scss */
+.fnt-small-1 {
+  font: 400 17px/22px Open Sans;
+}
+
+/* line 19, ../sass/all-fonts.scss */
+.fnt-count {
+  font: 700 16px/22px Open Sans;
+}
+/* line 21, ../sass/all-fonts.scss */
+.fnt-count-small-weight {
+  font: 400 16px/22px Open Sans;
+}
+
+/* line 26, ../sass/all-fonts.scss */
+.fnt-footer-head {
+  font: 700 11px/22px Raleway;
+}
+
+/* line 30, ../sass/all-fonts.scss */
+.fnt-xsmall {
+  font: 700 11px/34px Open Sans;
+}
+
+/* line 44, ../sass/all-fonts.scss */
+.main-font {
+  font: 700 53px/28px Raleway;
+}
+/* line 46, ../sass/all-fonts.scss */
+.main-font-med {
+  font: 400 21px/22px Open Sans;
+}
+
+@media screen and (min-width: 1400px) {
+  /* line 52, ../sass/all-fonts.scss */
+  .main-font {
+    font-size: 53px;
+  }
+}
+@media screen and (min-width: 1100px) and (max-width: 1399px) {
+  /* line 58, ../sass/all-fonts.scss */
+  .main-font {
+    font-size: 40px;
+  }
+}
+@media screen and (min-width: 500px) and (max-width: 1099px) {
+  /* line 64, ../sass/all-fonts.scss */
+  .main-font {
+    font-size: 30px;
+  }
+}
+@media screen and (min-width: 300px) and (max-width: 499px) {
+  /* line 70, ../sass/all-fonts.scss */
+  .main-font {
+    font-size: 20px;
+  }
+}

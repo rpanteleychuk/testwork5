@@ -1,0 +1,40 @@
+footer {
+  margin-top: 5%;
+
+  background-color: #404040;
+  .social-buttons {
+    margin-top: 2%;
+  }
+  .form-inline {
+    margin-top: 2%;
+  }
+  p {
+    margin-top: 2%;
+  }
+  h6 {
+    margin-top: 30px;
+  }
+  .form-control {
+    border-radius: 5px 0 0 5px
+
+  }
+  .btn-primary {
+    border-radius: 0 5px 5px 0;
+    background-color: #e7434e;
+    &:hover {
+      background-color: darkred;
+    }
+  }
+  .form-inline .input-group {
+    padding-right: 0;
+  }
+  a {
+    color: #717171;
+    &:hover {
+      color: darkred;
+    }
+  }
+  .social-buttons {
+    margin-top: 5%;
+  }
+}

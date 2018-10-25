@@ -1,0 +1,34 @@
+/* line 1, ../sass/own-boat-section.scss */
+.own-boat-section {
+  margin: 5% 0;
+  position: relative;
+}
+/* line 5, ../sass/own-boat-section.scss */
+.own-boat-section .boat-text {
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 30%;
+  z-index: 1;
+}
+/* line 11, ../sass/own-boat-section.scss */
+.own-boat-section .boat-text h3 {
+  margin-bottom: 2%;
+}
+/* line 15, ../sass/own-boat-section.scss */
+.own-boat-section .fullscreen-bg {
+  overflow: hidden;
+  z-index: -100;
+  max-height: 50vh;
+}
+/* line 21, ../sass/own-boat-section.scss */
+.own-boat-section .btn-secondary {
+  border-radius: 5px;
+  background-color: #e7434e;
+  padding: 25px 20px;
+  margin-top: 3%;
+}
+/* line 26, ../sass/own-boat-section.scss */
+.own-boat-section .btn-secondary:hover {
+  background-color: darkred;
+}

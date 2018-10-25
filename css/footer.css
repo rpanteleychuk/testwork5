@@ -1,0 +1,50 @@
+/* line 1, ../sass/footer.scss */
+footer {
+  margin-top: 5%;
+  background-color: #404040;
+}
+/* line 5, ../sass/footer.scss */
+footer .social-buttons {
+  margin-top: 2%;
+}
+/* line 8, ../sass/footer.scss */
+footer .form-inline {
+  margin-top: 2%;
+}
+/* line 11, ../sass/footer.scss */
+footer p {
+  margin-top: 2%;
+}
+/* line 14, ../sass/footer.scss */
+footer h6 {
+  margin-top: 30px;
+}
+/* line 17, ../sass/footer.scss */
+footer .form-control {
+  border-radius: 5px 0 0 5px;
+}
+/* line 21, ../sass/footer.scss */
+footer .btn-primary {
+  border-radius: 0 5px 5px 0;
+  background-color: #e7434e;
+}
+/* line 24, ../sass/footer.scss */
+footer .btn-primary:hover {
+  background-color: darkred;
+}
+/* line 28, ../sass/footer.scss */
+footer .form-inline .input-group {
+  padding-right: 0;
+}
+/* line 31, ../sass/footer.scss */
+footer a {
+  color: #717171;
+}
+/* line 33, ../sass/footer.scss */
+footer a:hover {
+  color: darkred;
+}
+/* line 37, ../sass/footer.scss */
+footer .social-buttons {
+  margin-top: 5%;
+}

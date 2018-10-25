@@ -1,0 +1,73 @@
+body {
+  font-family: Raleway;
+}
+
+.fnt-medium {
+  font: 400 30px/40px Open Raleway;
+  &-1 {
+    font: 400 21px/28px Raleway;
+  }
+}
+
+.fnt-small {
+  font: 400 20px/30px Open Raleway;
+  &-1 {
+    font: 400 17px/22px Open Sans;
+  }
+}
+
+.fnt-count {
+  font: 700 16px/22px Open Sans;
+  &-small-weight {
+    font: 400 16px/22px Open Sans;
+  }
+}
+
+.fnt-footer-head {
+  font: 700 11px/22px Raleway;
+}
+
+.fnt-xsmall {
+  font: 700 11px/34px Open Sans;
+}
+
+
+
+
+
+
+
+
+
+
+
+.main-font {
+  font: 700 53px/28px Raleway;
+  &-med {
+    font: 400 21px/22px Open Sans;
+  }
+}
+
+@media screen and (min-width: 1400px) {
+  .main-font {
+    font-size: 53px;
+  }
+}
+
+@media screen and (min-width: 1100px) and (max-width: 1399px) {
+  .main-font{
+    font-size: 40px;
+  }
+}
+
+@media screen and (min-width: 500px) and (max-width: 1099px) {
+  .main-font {
+    font-size: 30px;
+  }
+}
+
+@media screen and (min-width: 300px) and (max-width: 499px) {
+  .main-font {
+    font-size: 20px;
+  }
+}

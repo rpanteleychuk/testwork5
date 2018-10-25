@@ -1,0 +1,25 @@
+/* line 1, ../sass/counter-section.scss */
+.counter-section {
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 14%;
+  background-color: #ffffff;
+  border-radius: 5px;
+  box-shadow: 0 0 30px rgba(52, 52, 52, 0.15);
+  padding-top: 15px;
+}
+/* line 10, ../sass/counter-section.scss */
+.counter-section h6 {
+  font: 700 25px/22px Open Sans;
+  color: #343434;
+}
+/* line 14, ../sass/counter-section.scss */
+.counter-section p {
+  font: 400 14px/22px Open Sans;
+  color: #343434;
+}
+/* line 19, ../sass/counter-section.scss */
+.counter-section .border-left {
+  border-left: 1px solid #d4d4d4;
+}

@@ -1,0 +1,33 @@
+.featured-boats-section {
+  .text-box {
+    margin: 5% 0;
+  }
+
+  .gallery-item {
+    margin: 15px 0;
+  }
+
+  .img-text {
+    position: absolute;
+    bottom: 1%;
+    left: 30px;
+  }
+
+  .count-view {
+    position: absolute;
+    top: 8%;
+    left: 30px;
+    width: 100px;
+    height: 42px;
+    border-radius: 5px;
+    background-color: #e7434e;
+    p {
+      margin-top: 10%;
+
+    }
+  }
+  .btn-secondary {
+    margin-top:3%;
+    padding: 25px 40px;
+  }
+}

@@ -1,0 +1,72 @@
+/* line 2, ../sass/explore-section.scss */
+.explore-section .text-box {
+  margin: 10% 0 5%;
+}
+/* line 4, ../sass/explore-section.scss */
+.explore-section .text-box h2 {
+  color: #343435;
+}
+/* line 8, ../sass/explore-section.scss */
+.explore-section .text-box p {
+  color: #717171;
+}
+/* line 13, ../sass/explore-section.scss */
+.explore-section .gallery-item {
+  margin: 15px 0;
+}
+/* line 16, ../sass/explore-section.scss */
+.explore-section .img-text {
+  position: absolute;
+  bottom: 0;
+  left: 30px;
+}
+/* line 23, ../sass/explore-section.scss */
+.explore-section .count-view {
+  position: absolute;
+  top: 8%;
+  left: 45px;
+  width: 82px;
+  height: 42px;
+  border-radius: 5px;
+  background-color: #e7434e;
+}
+/* line 31, ../sass/explore-section.scss */
+.explore-section .count-view p {
+  margin: 0 0 0 10%;
+}
+/* line 34, ../sass/explore-section.scss */
+.explore-section .count-view img {
+  margin-left: 20%;
+  height: 16px;
+  width: 16px;
+}
+/* line 40, ../sass/explore-section.scss */
+.explore-section .btn-secondary {
+  margin-top: 5%;
+  padding: 25px 20px;
+}
+
+@media screen and (min-width: 1400px) {
+  /* line 48, ../sass/explore-section.scss */
+  .img-text h5 {
+    font-size: 30px;
+  }
+}
+@media screen and (min-width: 1100px) and (max-width: 1399px) {
+  /* line 54, ../sass/explore-section.scss */
+  .img-text h5 {
+    font-size: 27px;
+  }
+}
+@media screen and (min-width: 500px) and (max-width: 1099px) {
+  /* line 60, ../sass/explore-section.scss */
+  .img-text h5 {
+    font-size: 24px;
+  }
+}
+@media screen and (min-width: 300px) and (max-width: 499px) {
+  /* line 66, ../sass/explore-section.scss */
+  .img-text h5 {
+    font-size: 23px;
+  }
+}
